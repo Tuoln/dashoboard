@@ -1,0 +1,53 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.sidebar {
+    background-color: lightskyblue;
+    color: white;
+    fill:white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-weight: 700;
+}
+
+.logo {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.logo > svg {
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar li {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: ce;
+}
+
+.extra {
+    margin-top: 40px;
+}
+
+/*nav styling*/
